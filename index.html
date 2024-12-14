@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Незабутній відпочинок</title>
+    <style>
+      .card{
+        transition: box-shadow 0.3s ease-in-out;
+      }
+
+      .card:hover{
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);;
+      }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <nav class="navbar navbar-expand-md bg-primary">
+        <div class="container-fluid">
+        <img src="img/logo.jpg" alt="logo" class="navbar-brand" height="80">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <h5><a class="nav-link text-light" aria-current="page" href="#">Головна</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><a class="nav-link active text-light" href="#">Продукти</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><a class="nav-link text-light" href="#">Контакти</a></h5>
+              </li>
+            </ul>
+          </div>
+
+        <button class="btn btn-light">Логін</button>
+        </div>
+      </nav>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card m-4">
+            <img src="img/kulikivka.jpg" class="card-img-top" alt="Куликівка">
+            <h5><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">Лідер</span></h5>
+            <div class="card-body">
+              <h5 class="card-title">Відпочинок в Куликівці</h5>
+              <p class="card-text">Незабутній відпочинок у Куликівці для всієї сім'ї.</p>
+              <h5><p class="text-primary">949.99 грн</p></h5>
+              <a href="#" class="btn btn-primary">Замовити</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card m-4">
+            <img src="img/karpaty.webp" class="card-img-top" alt="Карпати">
+            <div class="card-body">
+              <h5 class="card-title">Відпочинок у Карпатах</h5>
+              <p class="card-text">Прекрасний гірський відпочинок у серці Карпат.</p>
+              <h5><p class="text-primary">1249.99 грн</p></h5>
+              <a href="#" class="btn btn-primary">Замовити</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card m-4">
+            <img src="img/beach.webp" class="card-img-top" alt="Море">
+            <div class="card-body">
+              <h5 class="card-title">Відпочинок на теплому морі</h5>
+              <p class="card-text">Відпочинок на пляжі з кришталевим піском.</p>
+              <h5><p class="text-primary">1999.99 грн</p></h5>
+              <a href="#" class="btn btn-primary">Замовити</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card m-4">
+            <img src="img/river.jpg" class="card-img-top" alt="Річка">
+            <div class="card-body">
+              <h5 class="card-title">Романтична подорож річкою</h5>
+              <p class="card-text">Романтична прогулянка на човні та мальовничі краєвиди.</p>
+              <h5><p class="text-primary">899.99 грн</p></h5>
+              <a href="#" class="btn btn-primary">Замовити</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
